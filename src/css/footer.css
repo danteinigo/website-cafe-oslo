@@ -1,0 +1,12 @@
+/* ---------------------------- FOOTER ---------------------------- */
+
+#contacto {
+    height: 200px;
+    background-color: var(--gris);
+    color: var(--texto-claro);
+}
+
+footer p {
+    padding-top: 100px;
+    margin-left: 30px;
+}

@@ -1,0 +1,35 @@
+/* ---------------------------- PRINCIPAL ---------------------------- */
+
+:root {
+    --rojo: #d03b40;
+    --beige: #ded6c0;
+    --blanco: #f5f0ed;
+    --gris: #241d1b;
+
+    --texto-claro: #f5f0ed;
+    --texto-oscuro: #3c3c3b;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    font-size: 14px;
+}

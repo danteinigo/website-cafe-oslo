@@ -1,0 +1,284 @@
+/* ---------------------------- MAIN ---------------------------- */
+
+main {
+    overflow: clearfix;
+}
+
+/* ESPACIO */
+
+#espacio {
+    height: 450px;
+}
+
+.contenido-espacio1 {
+    background-color: var(--rojo);
+    color: var(--beige);
+
+    /* deja de generar salto de linea */
+    float: left;
+
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* Para apilar h2 sobre p */
+
+    justify-content: center;
+    /* Centrado vertical */
+
+    align-items: center;
+    /* Centrado horizontal */
+}
+
+.contenido-espacio1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido-espacio1 p {
+    margin-top: 40px;
+    text-align: center;
+    width: 600px;
+}
+
+.contenido-espacio2 {
+    background-color: var(--beige);
+    color: var(--rojo);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* Para apilar h2 sobre p */
+
+    justify-content: center;
+    /* Centrado vertical */
+
+    align-items: center;
+    /* Centrado horizontal */
+}
+
+.contenido-espacio2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 450px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido-espacio2 p {
+    margin-top: 40px;
+    text-align: center;
+    width: 600px;
+}
+
+/* PRODUCTOS */
+
+#productos {
+    background: url(../../assets/img/Fondo2.jpg) no-repeat center center;
+
+    background-size: cover;
+    height: 800px;
+    position: relative;
+
+    color: var(--texto-claro);
+
+    display: flex;
+    flex-direction: column;
+    /* Para apilar h2 sobre p */
+
+    justify-content: center;
+    /* Centrado vertical */
+
+    align-items: center;
+    /* Centrado horizontal */
+
+    text-align: center;
+    /* Centrado el contenido */
+}
+
+.contenido-productos h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.contenido-productos hr {
+    width: 150px;
+    margin: 40px auto 40px auto;
+}
+
+.contenido-productos p {
+    margin-bottom: 60px;
+    width: 700px;
+}
+
+.contenido-productos button {
+    font-size: 15px;
+    padding: 15px 25px;
+    /* Ajusta según sea necesario */
+
+    color: var(--texto-claro);
+    border: 2px solid var(--blanco);
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.contenido-productos button:hover {
+    color: var(--texto-oscuro);
+    background: var(--blanco);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* OFERTAS */
+
+#ofertas {
+    padding: 100px 40px;
+}
+
+.mensaje h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contenido-ofertas-1 {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.contenido-ofertas-1 img {
+    float: left;
+}
+
+.contenido-ofertas-1 .mensaje {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.contenido-ofertas-2 {
+    width: 50%;
+    float: right;
+}
+
+.contenido-ofertas-2 img {
+    float: left;
+}
+
+.contenido-ofertas-2 .mensaje {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contenido-ofertas-3 {
+    display: inline-block;
+    width: 50%;
+}
+
+.contenido-ofertas-3 img {
+    float: left;
+}
+
+.contenido-ofertas-3 .mensaje {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contenido-ofertas-4 {
+    width: 50%;
+    float: right;
+}
+
+.contenido-ofertas-4 img {
+    float: left;
+}
+
+.contenido-ofertas-4 .mensaje {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* RESERVA */
+
+#reserva {
+    height: 450px;
+}
+
+.contenido-reserva1 {
+    background-color: var(--beige);
+    color: var(--rojo);
+    float: left;
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* Para apilar h2 sobre p */
+
+    justify-content: center;
+    /* Centrado vertical */
+
+    align-items: center;
+    /* Centrado horizontal */
+}
+
+.contenido-reserva1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido-reserva1 p {
+    margin-top: 40px;
+    text-align: center;
+    width: 450px;
+}
+
+.contenido-reserva1 p strong {
+    display: block;
+    font-weight: bold;
+}
+
+.contenido-reserva2 {
+    background-color: var(--rojo);
+    color: var(--beige);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* Para apilar h2 sobre p */
+
+    justify-content: center;
+    /* Centrado vertical */
+
+    align-items: center;
+    /* Centrado horizontal */
+}
+
+.contenido-reserva2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido-reserva2 p {
+    margin-top: 40px;
+    text-align: center;
+    width: 450px;
+}
+
+.contenido-reserva2 p strong {
+    display: block;
+    /* para posicionar debajo de parrafo */
+
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+/* ---------------------------- HEADER ---------------------------- */
+
+header {
+    background: url(../../assets/img/Fondo1.jpg) no-repeat center center;
+
+    background-size: cover;
+    height: 980px;
+}
+
+.textos-header h1 {
+    text-align: center;
+    width: 600px;
+    margin: 250px auto 0 auto;
+    font-size: 65px;
+    font-weight: bold;
+    color: var(--texto-claro);
+
+}
+
+.textos-header hr {
+    width: 200px;
+    margin: 40px auto 40px auto;
+}
+
+.textos-header p {
+    width: 700px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: var(--texto-claro);
+}
